@@ -37,8 +37,8 @@ Account transaction costs and sliipage is at a rate o 0.15 percent per transacti
 - 🔁 **Win Rate:** 43.16%  
 - 💰 **Gross Profit:** \$4,698.14  
 - 🧾 **Net Profit:** \$4,555.64  
-- 📊 **Sharpe Ratio:** 4.02  
-- 📈 **Sortino Ratio:** 21.08  
+- 📊 **Sharpe Ratio:** 4.02 (1.33 based on personal backtest.)  
+- 📈 **Sortino Ratio:** 21.08  (2.11 based on personal backtest.)
 - 🕒 **Average Holding Time:** 15 days 2h 46m  
 - 📉 **Maximum Drawdown (%):** 11.05%  
 - 💵 **Benchmark Return (%):** 325.63%
