@@ -3,11 +3,11 @@ import numpy as np
 from scipy import stats
 
 # Load data
-# data = pd.read_csv('../data/BTC_data/BTC_2019_2023_1d.csv', parse_dates=['datetime'])
+data = pd.read_csv('../../data/BTC_data/BTC_2019_2023_1d.csv', parse_dates=['datetime'])
 # data = pd.read_csv('../data/BTC_data/BTC_1d_2024.csv', parse_dates=['datetime'])
 # data = pd.read_csv('../data/ETH_data/ETH_2019_2023_1d.csv', parse_dates=['datetime'])
 # data = pd.read_csv('../data/ETH_data/ETH_1d_2024.csv', parse_dates=['datetime'])
-data = pd.read_csv('../data/SOL_data/SOL_1d_2023.csv', parse_dates=['datetime'])
+# data = pd.read_csv('../data/SOL_data/SOL_1d_2023.csv', parse_dates=['datetime'])
 
 
 
@@ -288,7 +288,7 @@ print(position[-5:])
    
 
 # Output to CSV
-output_path = 'output.csv'
+output_path = '../output.csv'
 data[['datetime', 'open', 'high', 'low', 'close','signals', 'trade_type','position']].to_csv(output_path, index=False)
 
 print(f"Output saved to {output_path}")
